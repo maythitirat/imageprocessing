@@ -1,4 +1,0 @@
-I = imread('Hw3_1');
-level = graythresh(I);
-bw = im2bw(I,level);
-imshow(bw)
